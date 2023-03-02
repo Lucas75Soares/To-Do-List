@@ -1,0 +1,76 @@
+* {
+    font-family: 'Inter', Arial;
+}
+
+body {
+    background-color: rgb(156, 17, 59);
+}
+
+main {
+    background-color: rgb(255, 147, 180);
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 36px;
+}
+
+.hr-style {
+   width: 500px;
+   align-items: center;
+}
+
+.btn-remove{
+    background-color: rgb(232, 49, 104);
+    color: white;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.btn-remove:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+li {
+    color: white;
+    list-style: none;
+    gap: 12px ;
+}
+
+h1 {
+    color: rgb(156, 17, 59);
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+input {
+    background-color: rgb(156, 17, 59);
+    color: white;
+    padding: 8px 9px;
+    border-radius: 12px;
+}
+
+#btn-add-task {
+    margin-top: 5px;
+    border-radius: 12px;
+    background-color: rgb(232, 49, 104);
+    color: white;
+    padding: 8px 9px;
+
+}
+
+#btn-add-task:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    opacity: 80%;
+    cursor: pointer;
+}
